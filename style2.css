@@ -1,0 +1,20 @@
+		#dragndrop-cart section#cart ul {
+			min-height: 200px;
+			border-style: dashed;
+			border-color: #CBD5E0;
+			padding: 10px;
+		}
+		#dragndrop-cart #cart,
+		#dragndrop-cart #products {
+			width: 50%;
+			float: left;
+		}
+		#dragndrop-cart figure {
+			width: 200px;
+			margin: 10px;
+			display: inline-block;
+			cursor: pointer;
+		}
+		#dragndrop-cart img {
+			pointer-events: none;
+		}

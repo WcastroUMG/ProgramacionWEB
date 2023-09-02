@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carreta de compra</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="style2.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+</head>
+<body>
+
+
+  <div id="wrapper">
+
+    <div id="banner-wrapper">
+      <header>
+        <div id="header-inner">
+          <nav>
+            <a href="#" id="menu-icon">
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul>
+              <li>
+                <a href="index.html" class="current">
+                  Pagina Principal
+                </a>
+              </li>
+              <li>
+                <a href="carreta.html">
+                  Carreta compra
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+<section>
+        <p id="country-info">Sitio donde se realiza la compra: <span id="country"></span></p>
+    </section>
+    <div id="dragndrop-cart">
+		<section id="products">
+			<h1>Productos a comprar</h1>
+
+			<figure id="product-1" data-price="25.00">
+				<img src="imagen/1.jpg" alt="">
+				<figcaption>Mouse</figcaption>
+			</figure>
+			<figure id="product-2" data-price="40.00">
+				<img src="imagen/2.jpg" alt="">
+				<figcaption>Teclado</figcaption>
+			</figure>
+			<figure id="product-3" data-price="800.00">
+				<img src="imagen/3.jpg" alt="">
+				<figcaption>Monitor</figcaption>
+			</figure>
+			<figure id="product-4" data-price="500.00">
+				<img src="imagen/4.jpg" alt="">
+				<figcaption>Case</figcaption>
+			</figure>
+			<figure id="product-5" data-price="450.00">
+				<img src="imagen/5.jpg" alt="">
+				<figcaption>Fuente</figcaption>
+			</figure>
+			<figure id="product-6" data-price="250.00">
+				<img src="imagen/6.jpg" alt="">
+				<figcaption>Ram</figcaption>
+			</figure>
+			
+		</section>
+		<section id="cart">
+			<h1>Carreta de Compra</h1>
+			<ul>
+			</ul>
+			Total:Q<span class="total">0.00</span>
+		</section>
+	</div> 	
+		<script src="carreta.js"></script>
+		<script src="geolocation.js"></script>
+		
+		
+		
+  <footer class="second-footer">
+    <p>
+        <details>
+  <summary>Programacion web</summary>
+  <p>William Alberto Castro Macario 0900-20-7736</p>
+  <p>Proyecto 1</p>
+</details> 
+    </p>
+  </footer>
+</body>
+</html>
